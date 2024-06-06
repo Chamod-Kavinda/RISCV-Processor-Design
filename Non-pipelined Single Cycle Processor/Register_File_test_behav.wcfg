@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Datapath_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Datapath_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="202990000fs"></ZoomStartTime>
+      <ZoomEndTime time="521390001fs"></ZoomEndTime>
+      <Cursor1Time time="487390000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="101"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/Datapath_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/dut/Program_Counter_blk/pc_in" type="array">
+      <obj_property name="ElementShortName">pc_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/dut/Program_Counter_blk/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/dut/Register_File_blk/wrt_en" type="logic">
+      <obj_property name="ElementShortName">wrt_en</obj_property>
+      <obj_property name="ObjectShortName">wrt_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/dut/Register_File_blk/reg1_addr" type="array">
+      <obj_property name="ElementShortName">reg1_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/dut/Register_File_blk/reg2_addr" type="array">
+      <obj_property name="ElementShortName">reg2_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/dut/Register_File_blk/reg_wrt_addr" type="array">
+      <obj_property name="ElementShortName">reg_wrt_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_wrt_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/dut/Register_File_blk/reg_wrt_data" type="array">
+      <obj_property name="ElementShortName">reg_wrt_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_wrt_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/dut/Register_File_blk/reg1_data" type="array">
+      <obj_property name="ElementShortName">reg1_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/dut/Register_File_blk/reg2_data" type="array">
+      <obj_property name="ElementShortName">reg2_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/dut/Register_File_blk/register[8]" type="array">
+      <obj_property name="ElementShortName">[8][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+   </wvobject>
+</wave_config>
